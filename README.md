@@ -18,6 +18,8 @@ import pandas as pd  # Data manipulation
 import numpy as np  # Numerical computations
 import matplotlib.pyplot as plt  # Visualization
 import seaborn as sns  # Statistical visualizations
+from statsmodels.graphics.tsaplots import plot_acf # Autocorrelation
+
 
 from sklearn.linear_model import LogisticRegression  # Logistic regression model
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier  # Tree-based models
